@@ -11,7 +11,7 @@ module.exports = class MessageBuilder {
         return this.payload;
     };
 
-    setUsername(username) {
+    setName(username) {
         this.payload.username = username;
 
         return this;
